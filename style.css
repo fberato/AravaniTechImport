@@ -1,7 +1,22 @@
 @charset "UTF-8";
 .navigation {
- height: 170px;
+ height: 80px;
  background: #00ff89;
+}
+@media (max-width:768px) {
+  .navigation {
+   height: 170px;
+  }
+  input {
+    border-radius: 12px 0px 0px 12px!important;
+   }
+   button {
+    background: black!important;
+    color: wheat;
+    padding: 15px;
+    border-radius: 0px 10px 10px 0px!important;
+    border: none;
+   }
 }
 .brand {
  position: absolute;
@@ -200,17 +215,25 @@ article {
  color: yellow;
  margin: 5px;
 }
-button {
- background: black!important;
- color: wheat;
- padding: 15px;
- border-radius: 0px 10px 10px 0px!important;
- border: none;
-}
+
 .fa-search {
  color: yellow;
  font-size: 20px;
 }
-input {
- border-radius: 12px 0px 0px 12px!important;
+button {
+  background: black!important;
+  color: wheat;
+  padding: 15px;
+  border-radius: 0px 10px 10px 0px!important;
+  border: none;
+ }
+ .btn {
+   background: rgba(255, 255, 0, 0)!important;
+   border-radius: 0px 0px 0px 0px!important;
+ }
+ .btn:hover {
+   box-shadow: none;
+   text-shadow: none;
+  background: rgb(255, 255, 0)!important;
+  border-radius: 0px 0px 0px 0px!important;
 }
