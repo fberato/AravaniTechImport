@@ -212,5 +212,5 @@ button {
  font-size: 20px;
 }
 input {
- border-radius: 12px 0px 0px 12px;
+ border-radius: 12px 0px 0px 12px!important;
 }
