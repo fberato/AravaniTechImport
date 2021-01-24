@@ -263,3 +263,8 @@ font-size: 10px;
 .icons_flex {
   display: flex;
 }
+
+/* X-Cliente */
+.welcome_client {
+  text-align: center;
+}
