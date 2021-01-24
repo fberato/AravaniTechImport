@@ -240,3 +240,26 @@ button {
 .atalhodetextosnippetTextOpenButton {
   display: none;
 }
+
+.bi-arrow-counterclockwise {
+  color: black;
+}
+.div_import {
+  display: flex;
+}
+.div_import img {
+  padding: 10px;
+}
+.title {
+  border-right: 2px solid #e4d7d7;
+ padding: 5px; 
+}
+.div_import strong {
+font-size: 10px;
+}
+.div_import span {
+  font-size: 10px;
+}
+.icons_flex {
+  display: flex;
+}
