@@ -189,18 +189,18 @@ article {
    display: none!important;
   }
   .carousel-control-next, .carousel-control-prev {
-    position: absolute;
-    top: 300px!important;
-    bottom: 0;
-    z-index: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    color: #fff;
-    text-align: center;
-    opacity: .5;
-    transition: opacity .15s ease;
+   position: absolute;
+   top: 300px!important;
+   bottom: 0;
+   z-index: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 15%;
+   color: #fff;
+   text-align: center;
+   opacity: .5;
+   transition: opacity .15s ease;
   }
 }
 /* Social Import 1  */
@@ -215,7 +215,7 @@ article {
  width: 100%;
 }
 .socials {
-  word-spacing: 12px;
+ word-spacing: 12px;
 }
 .super-links {
  position: absolute;
@@ -232,63 +232,61 @@ article {
  color: yellow;
  margin: 5px;
 }
-
 .fa-search {
  color: yellow;
  font-size: 20px;
 }
 button {
-  background: black!important;
-  color: wheat;
-  padding: 15px;
-  border-radius: 0px 10px 10px 0px!important;
-  border: none;
- }
- .btn {
-   background: rgba(255, 255, 0, 0)!important;
-   border-radius: 0px 0px 0px 0px!important;
- }
- .btn:hover {
-   box-shadow: none;
-   text-shadow: none;
-  background: rgb(255, 255, 0)!important;
-  border-radius: 0px 0px 0px 0px!important;
+ background: black!important;
+ color: wheat;
+ padding: 15px;
+ border-radius: 0px 10px 10px 0px!important;
+ border: none;
+}
+.btn {
+ background: rgba(255, 255, 0, 0)!important;
+ border-radius: 0px 0px 0px 0px!important;
+}
+.btn:hover {
+ box-shadow: none;
+ text-shadow: none;
+ background: rgb(255, 255, 0)!important;
+ border-radius: 0px 0px 0px 0px!important;
 }
 .atalhodetextosnippetTextOpenButton {
-  display: none;
+ display: none;
 }
-
 .bi-arrow-counterclockwise {
-  color: black;
+ color: black;
 }
 .div_import {
-  display: flex;
-  margin: 10px 20px 10px 10px;
+ display: flex;
+ margin: 10px 20px 10px 10px;
 }
 .div_import img {
-  padding: 10px;
+ padding: 10px;
 }
 .title {
-  border-right: 2px solid #e4d7d7;
+ border-right: 2px solid #e4d7d7;
  padding: 5px; 
 }
 .div_import strong {
-font-size: 10px;
+ font-size: 10px;
 }
 .div_import span {
-  font-size: 10px;
+ font-size: 10px;
 }
 .icons_flex {
-  display: flex;
-  justify-content: center;
+ display: flex;
+ justify-content: center;
 }
 @media (max-width:768px) {
   .icons_flex {
-    display: none;
+   display: none;
   }
 }
 
 /* X-Cliente */
 .welcome_client {
-  text-align: center;
+ text-align: center;
 }
