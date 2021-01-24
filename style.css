@@ -200,6 +200,9 @@ article {
  background: black;
  width: 100%;
 }
+.socials {
+  word-spacing: 12px;
+}
 .super-links {
  position: absolute;
  right: 0;
@@ -246,6 +249,7 @@ button {
 }
 .div_import {
   display: flex;
+  margin: 10px 20px 10px 10px;
 }
 .div_import img {
   padding: 10px;
@@ -262,6 +266,7 @@ font-size: 10px;
 }
 .icons_flex {
   display: flex;
+  justify-content: center;
 }
 
 /* X-Cliente */
