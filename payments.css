@@ -1,0 +1,18 @@
+.import_svg {
+    max-width: 200px;
+}
+.import_brands_cards h1 {
+    font-size: 10px;
+}
+.import_selos h1 {
+    font-size: 10px;
+}
+.center_pix {
+    display: flex;
+}
+.selos {
+    max-width: 100px;
+}
+.center_pix {
+    justify-content: center;
+}
