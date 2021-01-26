@@ -1,6 +1,7 @@
 .wrapper .grid_items .item h1 {
  border-bottom: 2px solid var(--bs-orange);
  max-width: 300px;
+ font-size: 26px;
 }
 .photo_product {
     max-width: 200px;
