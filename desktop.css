@@ -8,7 +8,21 @@
 .card__box {
     max-width: 300px;
 }
-
+.price span {
+    color: var(--bs-orange);
+}
+.price_sec span {
+    color: var(--bs-success);
+}
+.price_sec strong {
+    color: #bfc3c5;
+}
+.price_ter strong {
+    color: #bfc3c5;
+}
+.div_start i{
+    color: #e6af0b;
+}
 @media (max-width:768px) {
     .wrapper .grid_items .item h1 {
         width: 54%;
