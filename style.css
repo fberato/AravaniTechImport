@@ -124,6 +124,8 @@ nav ul li ul li a {
   .nav-list {
    display: block !important;
   }
+
+
 }
 #nav-toggle {
  position: absolute;
@@ -285,6 +287,10 @@ button {
   .icons_flex {
    display: none;
   }
+  .carousel-control-next, .carousel-control-prev {
+    display: none!important;
+  }
+ 
 }
 
 /* X-Cliente */
@@ -299,21 +305,4 @@ button {
 .rotepayments {
   width: 90%;
   margin: auto;
-}
-.carousel-control-next, .carousel-control-prev {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* width: 55%; */
-  height: 20px;
-  margin: 310px 0px;
-  color: #fff;
-  text-align: center;
-  opacity: .5;
-  transition: opacity .15s ease;
-  background: aqua;
 }
