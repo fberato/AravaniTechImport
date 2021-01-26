@@ -1,0 +1,12 @@
+.welcome_client .dior h1 {
+    color: black;
+}
+@media (max-width:768px) {
+    .wrapper .grid_items .item h1 {
+        width: 54%;
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+    }
+}
+
