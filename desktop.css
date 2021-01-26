@@ -8,6 +8,7 @@
 .card__box {
     max-width: 300px;
 }
+
 @media (max-width:768px) {
     .wrapper .grid_items .item h1 {
         width: 54%;
