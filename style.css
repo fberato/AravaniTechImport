@@ -211,20 +211,16 @@ article {
 }
 .request_zone {
  display: inline-flex;
- /* background: black; */
  width:90%;
 }
 .socials {
-  width: 20%;
+ width: 20%;
  word-spacing: 12px;
  text-align: center;
 }
 .super-links {
-  width: 80%;
-    text-align: end;
-  /* width: 90%; */
- /* position: absolute;
- right: 0; */
+ width: 80%;
+ text-align: end;
 } 
 .socials i {
  color: yellow;
@@ -296,7 +292,7 @@ button {
  text-align: center;
 }
 .wrap {
-  width: 100%;
-  margin: auto;
-  background: black!important;
+ width: 100%;
+ margin: auto;
+ background: black!important;
 }
