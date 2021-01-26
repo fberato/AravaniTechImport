@@ -3,10 +3,14 @@
  max-width: 300px;
 }
 .photo_product {
-    max-width: 300px;
+    max-width: 200px;
 }
 .card__box {
     max-width: 300px;
+
+    border: 1px solid #bfbaba;
+    border-radius: 10%;
+    padding: 20px;
 }
 .price span {
     color: var(--bs-orange);
@@ -23,8 +27,18 @@
 .div_start i{
     color: #e6af0b;
 }
+
+
+
+
 @media (max-width:768px) {
     .wrapper .grid_items .item h1 {
         width: 54%;
+    }
+    .card__box {
+        max-width: 300px;
+        border: 1px solid #ececec;
+        border-radius: 10%;
+        padding: 10px;
     }
 }
