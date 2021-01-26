@@ -1,0 +1,15 @@
+.wrapper .grid_items .item h1 {
+ border-bottom: 2px solid var(--bs-orange);
+ max-width: 300px;
+}
+.photo_product {
+    max-width: 300px;
+}
+.card__box {
+    max-width: 300px;
+}
+@media (max-width:768px) {
+    .wrapper .grid_items .item h1 {
+        width: 54%;
+    }
+}
