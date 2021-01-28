@@ -10,13 +10,7 @@
   input {
     border-radius: 12px 0px 0px 12px!important;
    }
-   button {
-    background: black!important;
-    color: wheat;
-    padding: 15px;
-    border-radius: 0px 10px 10px 0px!important;
-    border: none;
-   }
+  
 }
 .brand {
  position: absolute;
@@ -240,23 +234,8 @@ article {
  color: yellow;
  font-size: 20px;
 }
-button {
- background: black!important;
- color: wheat;
- padding: 15px;
- border-radius: 0px 10px 10px 0px!important;
- border: none;
-}
-.btn {
- background: rgba(255, 255, 0, 0)!important;
- border-radius: 0px 0px 0px 0px!important;
-}
-.btn:hover {
- box-shadow: none;
- text-shadow: none;
- background: rgb(255, 255, 0)!important;
- border-radius: 0px 0px 0px 0px!important;
-}
+
+
 .atalhodetextosnippetTextOpenButton {
  display: none;
 }
@@ -359,7 +338,7 @@ body {
 .input button {
   background: #0A6;
   border: none;
-  height: 41px;
+  height: 45px;
   float: right;
   width: 60px;
   cursor: pointer;
@@ -394,7 +373,13 @@ body {
    width: 275px;
   }
   .input button {
-   position: relative;
-   top: -40px;
+    position: relative;
+    top: -1px;
+    left: 1px;
+    height: 42px;
+    width: 60px;
+  }
+  .input input {
+    font-size: 14px; 
   }
 }
