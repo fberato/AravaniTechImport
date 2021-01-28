@@ -13,8 +13,15 @@
  <link rel="stylesheet" href="./cart.css">
  <link rel="stylesheet" href="./desktop.css">
  <link rel="stylesheet" href="./mobile.css">
+ <link rel="stylesheet" href="./categorias.css">
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> 
+
+ <!-- Categorias Import -->
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css'>
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'> 
+ <link rel="stylesheet" href="./categorias.css">
 </head>
 <body>
   <div class="wrap">
@@ -38,32 +45,19 @@
         <div class="brand">
           <a href="#!">ARAVANITECH</a>
         </div>
-        <div class="usher_import">
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Text input with dropdown button">
-            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Todo o Site</button>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">Computadores</a></li>
-              <li><a class="dropdown-item" href="#">Notebooks</a></li>
-              <li><a class="dropdown-item" href="#">Informática</a></li>
-              <li><a class="dropdown-item" href="#">Celulares e Tablets</a></li>
-              <li><a class="dropdown-item" href="#">TV e Áudio</a></li>
-              <li><a class="dropdown-item" href="#">Eletrônicos</a></li>
-              <li><a class="dropdown-item" href="#">Esporte e Lazer</a></li>
-              <li><a class="dropdown-item" href="#">Automotivo</a></li>
-              <li><a class="dropdown-item" href="#">Games</a></li>
-              <li><a class="dropdown-item" href="#">Open Box</a></li>
-              <li><a class="dropdown-item" href="#">Smart Home</a></li>
-              <li><a class="dropdown-item" href="#">Monitor</a></li>
-              <li><a class="dropdown-item" href="#">Rede e Wi-fi</a></li>
-              <li><a class="dropdown-item" href="#">Hardware</a></li>
-              <li><a class="dropdown-item" href="#">Periféricos</a></li>
-              <!-- <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Separated link</a></li> -->
-            </ul>
-            <button><i class="fas fa-search"></i></button>
+        <div class="search">
+          <div class="input dropdown">
+            <input type="text" placeholder="John Doe" />
+            <select>
+                <option data-placeholder="John Doe">Name</option>
+                <option data-placeholder="john@doe.com">E-mail</option>
+                <option data-placeholder="jdoe1">UserID</option>
+            </select>
+            <button></button>
           </div>
         </div>
+        
+        
         <nav>
           <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
           <ul class="nav-list">
@@ -213,28 +207,68 @@
   <br>
   <br>
 
-  <!-- DESKTOP -->
-  <div class="wrapper">
-    <div class="grid_items">
-      <!-- Processadores -->
-      <div class="item">
-        <h1>Processadores</h1>
-        <br>
-        <div class="card__box"><a class="view_link" href="#">
-          <img class="photo_product" src="https://waz.vteximg.com.br/arquivos/ids/205819-500-500/119181-1-Kit_HTC_VIVE_Cosmos_para_realidade_virtual_Virtual_Reality_119181.jpg?v=637076051274300000" alt="">
-          <a class="buy_btn" href="#">Comprar</a>
-          <div class="div_start"><i class="fas fa-star"></i> <i class="far fa-star"></i></div>
-          <div class="title_item"><span>Kit HTC VIVE Cosmos para realidade virtual (Virtual Reality) - 99HARL000-00</span></div>
-          <div class="price"><span>Por: R$ 9.647,04</span></div>
-          <div class="price_sec"><strong>ou </strong><span>R$ 8.199,98</span> <strong>no boleto</strong></div>
-          <div class="price_ter"><strong>ou </strong><span>10x <strong>de</strong> R$ 964,70 <strong>no cartão</strong></span></div>
-        </a>
-          
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- MOBILE -->
+  <!-- partial:index.partial.html -->
+<div class="category-panels">
+
+  <div class="row">
+      <div class="col-md-12">
+          <div class="col-md-3">
+              <div class="product-panel">
+                  <a href="#"><img src="https://sleipner.no/media/frontend_media/odin_copy/documents_powerpack_main_product_picture.jpg" alt=""></a>
+                  <a href="#" class="add-favorite"><i class="fa fa-fw fa-star"></i></a>
+                  <a href="#" class="add-cart"><i class="fa fa-fw fa-cart-plus"></i></a>
+                  <a class="product-title" href="#">Hyd powerpack for SPS55B-VF650</a>
+                  <span class="product-description">Water C.3,5kw AC,W.flow,test</span>
+                  <span class="product-price">102 645 kr</span>
+                  <a href="#" class="more-info">
+        See Product <i class="fa fa-fw fa-angle-right " style="font-weight: bold;font-size: 1.3em; position:relative;top:1px;"></i>
+      </a>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="product-panel">
+                  <a href="#"><img src="https://sleipner.no/media/frontend_media/odin_copy/documents_powerpack_main_product_picture.jpg" alt="Product Picture" title="Go to product page"></a>
+                  <a href="#" class="add-favorite" title="Add to favorites"><i class="fa fa-fw fa-star"></i></a>
+                  <a href="#" class="add-cart" title="Add to cart"><i class="fa fa-fw fa-cart-plus"></i></a>
+                  <a class="product-title" href="#" title="Go to product page">Hyd powerpack for SPS55B-VF650</a>
+                  <span class="product-description">Water C.3,5kw AC,W.flow,test</span>
+                  <span class="product-price">102 645 kr</span>
+                  <a href="#" class="more-info" title="Go to product page">
+        See Product <i class="fa fa-fw fa-angle-right " style="font-weight: bold;font-size: 1.3em; position:relative;top:1px;"></i>
+      </a>
+                  <span class="new-product">New</span>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="product-panel">
+                  <a href="#"><img src="https://sleipner.no/media/frontend_media/odin_copy/documents_powerpack_main_product_picture.jpg" alt="Product Picture" title="Go to product page"></a>
+                  <a href="#" class="add-favorite"><i class="fa fa-fw fa-star"></i></a>
+                  <a href="#" class="add-cart"><i class="fa fa-fw fa-cart-plus"></i></a>
+                  <a class="product-title" href="#">Hyd powerpack for SPS55B-VF650</a>
+                  <span class="product-description">Water C.3,5kw AC,W.flow,test</span>
+                  <span class="product-price">102 645 kr</span>
+                  <a href="#" class="more-info">
+        See Product <i class="fa fa-fw fa-angle-right " style="font-weight: bold;font-size: 1.3em; position:relative;top:1px;"></i>
+      </a>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="product-panel">
+                  <a href="#"><img src="https://sleipner.no/media/frontend_media/odin_copy/documents_powerpack_main_product_picture.jpg" alt=""></a>
+                  <a href="#" class="add-favorite"><i class="fa fa-fw fa-star"></i></a>
+                  <a href="#" class="add-cart"><i class="fa fa-fw fa-cart-plus"></i></a>
+                  <a class="product-title" href="#">Hyd powerpack for SPS55B-VF650</a>
+                  <span class="product-description">Water C.3,5kw AC,W.flow,test</span>
+                  <span class="product-price">102 645 kr</span>
+                  <a href="#" class="more-info">
+        See Product <i class="fa fa-fw fa-angle-right " style="font-weight: bold;font-size: 1.3em; position:relative;top:1px;"></i>
+      </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
   <br>
   <br>
@@ -278,5 +312,14 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+<!-- Categorias -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script  src="./categorias.css"></script>
+
+<!-- Pesquisar -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="./script_pesquisar.js"></script>
 </body>
 </html>
