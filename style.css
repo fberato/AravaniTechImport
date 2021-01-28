@@ -387,3 +387,14 @@ body {
 .input button:focus {
   outline: none;
 }
+@media (max-width:768px) {
+  .input {
+   position: relative;
+   top: 80px;
+   width: 275px;
+  }
+  .input button {
+   position: relative;
+   top: -40px;
+  }
+}
