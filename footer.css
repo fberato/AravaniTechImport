@@ -33,3 +33,8 @@ margin: 2px;
     font-size: 10px;
     text-align: center;
 }
+@media (max-width:768px) {
+    .wrap {
+        display: none;
+    }
+}
