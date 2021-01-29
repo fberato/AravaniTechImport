@@ -12,3 +12,85 @@
     }
 }
 
+/* Cart Import CSS for Mobile */
+.grid {
+    display: none;
+   }
+   .btn_cart {
+    margin: 20px 10px 10px;
+    background-color: #1db954;
+    border: 0px;
+    border-radius: 50px;
+   }
+   .btn_cart a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   .btn_cart a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   .title {
+    text-align: center;
+    width: 100%;
+   }
+   .cart img {
+    width: 250px;
+   }
+   
+   @media(max-width:768px) {
+       .grid {
+        display: flex;
+        background: aliceblue;
+        overflow: auto;
+        white-space: nowrap;
+       }
+       .cart {
+        margin: 10px;
+       }
+       .item_name .wid_th h1 {
+        font-weight: normal!important;
+       }
+       .item_name_mobile {
+        display: block!important;
+    }
+    
+   } 
+   .item_name_mobile .wid_th h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    border-bottom: 4px solid #92C600;
+    max-width: 300px;
+  }
+.item_name_mobile {
+    display: none;
+}
+
+  /*  Settings */
+  .title h1 {
+
+      font-size: 12px;
+    color: black;
+    text-transform: uppercase;
+  }
+  .title h2 {
+    font-size: 10px;
+    font-size: 21px;
+    color: var(--bs-orange);
+}
+.title .fas .fa-star {
+    color: rgb(243, 243, 11);
+}
+.title .far .fa-star {
+    color: var(--bs-orange);
+}
