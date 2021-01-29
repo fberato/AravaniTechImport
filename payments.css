@@ -3,9 +3,13 @@
 }
 .import_brands_cards h1 {
     font-size: 26px;
+    color: black;
+    font-weight: revert;
 }
 .import_selos h1 {
     font-size: 26px;
+    color: black;
+    font-weight: revert;
 }
 .center_pix {
  display: flex;

@@ -382,4 +382,8 @@ body {
   .input input {
     font-size: 14px; 
   }
+  .search {
+    position: relative;
+    top: -10px;
+  }
 }

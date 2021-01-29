@@ -1,6 +1,7 @@
 .welcome_client .dior h1 {
     color: black;
     font-size: 28px;
+    font-weight: revert;
 }
 @media (max-width:768px) {
     .wrapper .grid_items .item h1 {
