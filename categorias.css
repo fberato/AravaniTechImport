@@ -70,6 +70,7 @@
   margin-top: 7px;
 }
 .product-panel .product-price {
+  color: #FF9500;
   margin-top: 10px;
   font-size: 1.5em;
 }
@@ -154,4 +155,16 @@
   .category-panels {
     display: none;
   }
+}
+
+/* Item Name Categorias */
+.item_name .wid_th h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  border-bottom: 4px solid #92C600;
+  max-width: 300px;
+}
+.item_name {
+  margin: 20px;
 }
