@@ -200,40 +200,7 @@ article {
    transition: opacity .15s ease;
   }
 }
-/* Social Import 1  */
-@media (max-width:768px) {
-  .request_zone {
-   display: none!important;
-  }
-}
-.request_zone {
- display: inline-flex;
- width:90%;
-}
-.socials {
- width: 20%;
- word-spacing: 12px;
- text-align: end;
-}
-.super-links {
- width: 80%;
- text-align: end;
-} 
-.socials i {
- color: yellow;
-}
-.super-links a {
- color: yellow!important;
- margin: 10px;
-}
-.super-links span {
- color: yellow;
- margin: 5px;
-}
-.fa-search {
- color: yellow;
- font-size: 20px;
-}
+
 
 
 .atalhodetextosnippetTextOpenButton {
@@ -277,11 +244,7 @@ article {
 .welcome_client {
  text-align: center;
 }
-.wrap {
- width: 100%;
- margin: auto;
- background: black!important;
-}
+
 .rotepayments {
   width: 90%;
   margin: auto;

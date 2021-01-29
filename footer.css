@@ -1,11 +1,30 @@
-.import_footer {
- text-align: center;
- width: 90%;
+.wrap {
+    display: flex;
+    background: black;
+}
+.import_socials {
+width: 40%;
+margin: auto;
+word-spacing: 10px;
+}
+.import_socials a {
+
+}
+.import_contacts {
+    width: 40%;
+    text-align: end;
+    font-size: 11px;
     margin: auto;
 }
-.center_margin h1{
- font-size: 10px;
+.import_socials i {
+    color: yellow;
+   
 }
-.center_margin h2{
- font-size: 10px;
+.import_contacts strong {
+color: yellow;
+font-weight: 100;
+margin: 2px;
+}
+.import_contacts span{
+
 }
