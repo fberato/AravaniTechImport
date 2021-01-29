@@ -94,3 +94,9 @@
 .title .far .fa-star {
     color: var(--bs-orange);
 }
+
+span {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+}
