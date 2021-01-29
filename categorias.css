@@ -97,7 +97,8 @@
 .product-panel:hover .more-info {
   visibility: visible;
   opacity: 1;
-  background: #454545;
+   background: #92C601;;
+  /* background: #454545; */
   color: #fff;
   position: absolute;
   left: 0;
@@ -125,11 +126,13 @@
   display: block;
 }
 .product-panel:hover .add-cart:hover {
-  background: rgba(0, 0, 0, 0.8);
+  /* background: #92C601; */
+  /* background: rgba(0, 0, 0, 0.8); */
   color: rgba(255, 255, 255, 0.9);
 }
 .product-panel:hover .add-favorite {
-  background: rgba(0, 0, 0, 0.7);
+  /* background: #92C601; */
+  /* background: rgba(0, 0, 0, 0.7); */
   width: 50px;
   height: 50px;
   border-radius: 50px 50px;
