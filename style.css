@@ -430,6 +430,11 @@ body{
 /* .btn{
   background: #00B4CC!important;
 } */
+@media (max-width:795px) {
+  .wrap {
+    display: none!important;
+  }
+}
 @media (max-width:768px) {
   .wrapper{
     width: 90%;
@@ -445,4 +450,10 @@ body{
     width: 46px;
     height: 46px;
 }
+
+}
+
+/* BTN SEARCH CSS */
+.search .btn {
+
 }
