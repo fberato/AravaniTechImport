@@ -396,7 +396,7 @@ body{
 
 /*Resize the wrap to see the search bar change!*/
 .wrapper{
-  width: 30%;
+  width: 50%;
   position: relative;
   top: 20px;
   margin: auto;
@@ -437,6 +437,11 @@ body{
     margin: auto;
   }
   .searchTerm {
-    padding: 15px;
+    padding: 20px;
   }
+  .searchButton {
+
+    width: 46px;
+    height: 46px;
+}
 }
