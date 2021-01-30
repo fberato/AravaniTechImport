@@ -55,5 +55,9 @@
         
         padding: 0px;
     }
+    .cadastrar .center {
+        position: relative;
+        top: 0px;
+    }
    
 }
