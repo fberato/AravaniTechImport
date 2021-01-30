@@ -5,7 +5,7 @@
 }
 @media (max-width:768px) {
   .navigation {
-   height: 170px;
+   height: 130px;
   }
   input {
     border-radius: 12px 0px 0px 12px!important;
