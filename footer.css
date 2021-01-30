@@ -2,6 +2,10 @@
     display: flex;
     background: black;
 }
+.import_footer {
+    width: 90%;
+    margin: auto;
+}
 .import_socials {
 width: 40%;
 margin: auto;
