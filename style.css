@@ -55,6 +55,7 @@ nav ul li a:visited {
  background: #262626;
  color: #ffffff;
  text-decoration: none;
+ display: none;
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
