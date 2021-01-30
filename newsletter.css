@@ -1,0 +1,52 @@
+.center {
+    display: flex;
+}
+.waz {
+    font-size: 110px;
+}
+.import_news_letters {
+    display: flex;
+   justify-content: center;
+}
+.wars h1 {
+    font-size: 26px;
+}
+.wars {
+    width: 60%;
+    margin: auto;
+}
+.cadastrar .center {
+    position: relative;
+    top: 40px;
+}
+.send_newsletter {
+    background: black;
+    color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.input_send_newsletters {
+    border: none;
+    box-shadow: 3px 6px 10px 8px #b3afaf;
+}
+@media (max-width:768px) {
+    .import_news_letters {
+        display: block;
+        margin: auto;
+    }
+    .cadastrar .center {
+        justify-content: center;
+    }
+    .center {
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+    .waz {
+        font-size: 100px;
+    }
+    .wars h1 {
+        font-size: 16px;
+    }
+}
