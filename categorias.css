@@ -1,8 +1,10 @@
-
-.category-panels {
+.categoria_desktop {
+  display: flex;
+}
+/* .category-panels {
   width: 1000px;
   margin: 0 auto;
-}
+} */
 
 .favorited {
   color: rgba(255, 200, 20, 0.9) !important;
@@ -152,7 +154,7 @@
   color: rgba(255, 255, 255, 0.9);
 }
 @media (max-width:768px) {
-  .category-panels {
+  .categoria_desktop {
     display: none;
   }
 }

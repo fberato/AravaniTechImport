@@ -54,6 +54,9 @@
         overflow: auto;
         white-space: nowrap;
        }
+       .item_name {
+           display: none;
+       }
        .cart {
         margin: 10px;
        }
