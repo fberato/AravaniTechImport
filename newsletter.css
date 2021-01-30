@@ -29,7 +29,9 @@
 .input_send_newsletters {
     border: none;
     box-shadow: 3px 6px 10px 8px #b3afaf;
+    padding: 10px 100px;
 }
+
 @media (max-width:768px) {
     .import_news_letters {
         display: block;
@@ -49,4 +51,9 @@
     .wars h1 {
         font-size: 16px;
     }
+    .input_send_newsletters {
+        
+        padding: 0px;
+    }
+   
 }
